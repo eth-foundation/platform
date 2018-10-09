@@ -80,7 +80,7 @@
 		}
 		return $.loadAndСache(APIURL + data.toUri()).data.result
 		 */
-		return $.loadAndСache('/js/abi/' + address + '.json').data;
+		return $.loadAndСache('js/abi/' + address + '.json').data;
 	}
 
 	_export.createWallet = ethers.Wallet.createRandom;
