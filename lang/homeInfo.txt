@@ -1,0 +1,15 @@
+<h3>How to use?</h3>
+	<hr />
+	<h4>How to deposit?</h4>
+	<ol>
+		<li>Choose your Deposit plan</li>
+		<li>Send some Ethereum to a correspondent contract address. No Min or Max requires.</li>
+		<li>Add a DT token to your token list in Metamask, using address of specified contract</li>
+		<li>Once deposit is created, you will be able to see DT tokens in your wallet.</li>
+	</ol>
+	<hr />
+	<h4>How to withdraw?</h4>
+	<ol>
+		<li>Just send your DT tokens back to a correspondent contract address.</li>
+		<li>The smart contract will accept your DT tokens by current exchange rate,  and will send appropriate amount of ETH back in to your wallet.</li>
+	</ol>

@@ -1,0 +1,221 @@
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    to {
+    	opacity: 1;
+        transform: scaleY(1);
+    }
+    from {
+    	opacity: 0;
+    	transform: scaleY(0) scaleX(0.5);
+    }
+}
+
+/* Standard syntax */
+@keyframes example2 {
+   to {
+    	opacity: 1;
+    	transform: scaleY(1);
+    }
+    from {
+    	opacity: 0;
+    	transform: scaleY(0);
+    }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {
+    	opacity: 1;
+        transform: scaleY(1);
+    }
+    to {
+    	opacity: 0;
+    	transform: scaleY(0);
+    }
+}
+
+/* Standard syntax */
+@keyframes example {
+   from {
+    	opacity: 1;
+    	transform: scaleY(1);
+    }
+    to {
+    	opacity: 0;
+    	transform: scaleY(0);
+    }
+}
+
+* { 
+	transition: all 0.6s;
+	box-sizing: border-box; 
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-direction: reverse;
+    animation-name: example;
+    animation-duration: 0.6s;
+ 	animation-iteration-count: 1;
+    animation-direction: reverse;
+}
+.animout{
+    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.6s; /* Safari 4.0 - 8.0 */
+    /* -webkit-animation-iteration-count: infinite; */
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: example2;
+    animation-duration: 0.6s;
+ 	/* animation-iteration-count: infinite; */
+ 	animation-fill-mode: forwards;
+ 	animation-play-state: running;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+	font-family: 'M PLUS Rounded 1c', 'Source Sans Pro', sans-serif;
+	/*background-image: url(http://bgfons.com/upload/leather_texture1393.jpg);*/
+    background-size: cover;
+}
+
+body.devcss * {
+	border: 0;
+	margin: 2px;
+	padding: 0.3rem;
+	background: rgba(0,0,0,0.07);
+}
+
+button {
+	padding: 0.5rem 2rem;
+    color: #000;
+    font-size: 12pt;
+    font-weight: bold;
+    border-radius: 5rem;
+    border: 2px solid #fff;
+    margin: 0 0.2rem;
+    background-color: #eef;
+    text-shadow: 1px 1px 0 #fff;
+    transition: all 0.3s;
+    outline: none;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+button:hover {
+	background: darkblue;
+	color: white;
+	text-shadow: 1px 1px 0 #000;
+}
+
+input {
+	outline: none;
+	padding: 0.5rem 2rem;
+    color: #000;
+    font-size: 12pt;
+    font-weight: normal;
+    border-radius: 5rem;
+    border: 2px solid #ddf;
+    margin: 0 0.2rem;
+    background-color: #fff;
+    
+    
+}
+
+body.devcss > div{
+	margin: 0;
+	padding: 0;
+}
+
+body.devcss > div > * {
+	margin: 0;
+	
+}
+
+.header, .footer {
+	padding: 1rem;
+	background: #99F;
+	min-height: 5rem
+}
+.menu {
+	/* min-height: 2rem;*/
+	padding: 0 0.5rem;
+	background: #ccc;
+	text-align: center;
+}
+.menu a {
+	color: black;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	border-radius: 5rem;
+}
+.menu .active {
+	background: #fff;
+	font-weight: bold;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.body {
+	padding: 2rem
+}
+body {
+	min-height: 100vh;
+}
+.hiddenLayer {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background: rgba(0,0,0,0.3);
+}
+.hiddenLayer > .windowslayer {
+	position: fixed;
+	width: 600px;
+	background: #eee;
+	height: 400px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	box-shadow: 1px 0px 15px rgba(0,0,0,0.5);
+}
+.hiddenLayer > .windowslayer > .title {
+	background: #99f;
+	padding: 0.5rem;
+	font-weight: bold;
+}
+.hiddenLayer > .windowslayer > .contant {
+	padding: 0.5rem;
+	font-weight: bold;
+	overflow-wrap: break-word;
+}
+.hiddenLayer > .windowslayer > .buttons {
+    background: #ccc;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.astable {
+	display: table;
+	border-spacing: 0px 12px;
+	margin: auto;
+	font-size: 12px; 
+}
+.item {
+    background-color: #fff;
+    margin: 0.3rem;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    padding: 0.3rem 1.5rem;
+    display: table-row;
+    vertical-align: middle;
+}
+.item > * {
+	display: table-cell;
+	padding: 0.3rem;
+	vertical-align: middle;
+}

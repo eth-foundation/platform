@@ -1,0 +1,21 @@
+<lang:text1/>
+	<h1>Video</h1>
+	text
+	<strong><b>Strong text</b></strong>
+	<button>click me</button>
+
+<lang:text2/>
+	<h1>Video2</h1>
+
+<lang:text3/>
+	<h1>Video3</h1>
+
+<lang:text4/>
+	<h1>Video4</h1>
+
+<lang:text5/>
+	<h1>Video5</h1>
+
+<lang:text6/>
+	<h1>Video6</h1>
+

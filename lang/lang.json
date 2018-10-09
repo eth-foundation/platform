@@ -1,0 +1,29 @@
+{
+	"___index": ["en","ru"],
+	"Title": ["Dapp FDDP", "Децентрализованное приложение FDDP"],
+	"next page":["next page", "следующая страница"],
+	"link": ["link", "ссылка"],
+	"Sign In Page":["Sign In", "Войти в систему"],
+	"Sign In":["Sign In", "Войти в систему"],
+	"Edit":["Edit", "Редактировать"],
+	"About Us":["About Us", "О нас"],
+	"FAQ":["FAQ", "Вопросы и ответы"],
+	"close": ["close", "закрыть"],
+
+	"back home": ["back home", "На главную"],
+	"Home": ["Home", "Главная"],
+	"Chack Without PK": ["Check Without PK","Проверить без приватного ключа"],
+	"Video": {
+		"en": {"linkToFile": "lang/video001_en.txt"},
+		"ru": {"linkToFile": "lang/video001_ru.txt"}
+	},
+	"social": {
+		"en": {"linkToFile": "lang/social.txt"},
+		"ru": {"linkToFile": "lang/social.txt"}
+	},
+	"homeInfo": {
+		"en": {"linkToFile": "lang/homeInfo.txt"},
+		"ru": {"linkToFile": "lang/homeInfo.txt"}
+	},
+	"Total Suply of Tokens": ["Total Suply of Tokens", "Вего выпущено токенов"]
+}
